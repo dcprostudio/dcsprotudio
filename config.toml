@@ -1,0 +1,131 @@
+baseURL       = "https://dcprostudio.netlify.app/"
+languageCode  = "id"
+title         = "DC Pro Studio | Creative Design & Service Agency"
+theme         = "khaidsgn-theme"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 4
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "DC Studio | Design And Service Studio"
+  author = "Khai Uta"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Project Type"
+    placeholder_about_the_project = "About the Project"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "gd"
+      title  = "Graphics Design"
+    [[params.contactForm.projectType]]
+      value = "wd"
+      title  = "Web Design"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "tanya-tanya?"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Kami Adalah Studio Service Dan Desain Kreatif"
+    tagline               = "KAMI BEKERJA KERAS, KAMI BERMAIN KERAS"
+    primary_button        = "Buat Websites / Blog ?"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Mau Service Apa Nih ?"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "KARYA TERBARU KAMI <3"
+    subtitle  = "Memberikan Kemudahan Dan Pengalaman Baru Yang Menarik Untuk Anda"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "MARI BEKERJA SAMA"
+    primary_button      = "Tidak Meyakinkan?"
+    primary_button_url  = "contact"
+    secondary_button    = "Ayo Gas Kannnnn"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Contact Info"
+      address = "Pengadangan.<br>Jl. Kuwang Sawi, LB Selatan, MN 55372"
+      phone   = "+62 8++++++++++"
+      email   = "dcs.contact@gmail.com"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About Company"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Projects"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Blog"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/dotcomp.studio/"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/dotcomp.studio/"
+        [[params.footer.social.link]]
+          name = "Twitter"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Linkedin"
+          url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "Tentang Konten Kami:"
+        description = "Koenten di situs kami sepenuhnya di lindungi undang undang, jika ingin mengambil sedikit item dari website kami silahkan cantumkan link sumber .<br> © 2021 - DotComp Studio"
